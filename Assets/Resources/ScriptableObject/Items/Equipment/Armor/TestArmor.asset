@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96afb33a4aeb434db6bc54b57359e09, type: 3}
+  m_Name: TestArmor
+  m_EditorClassIdentifier: 
+  itemID: 20
+  itemName: "\u4FDD\u547D\u76D4\u7532"
+  itemInfo: "\u76D4\u7532\u4E0A\u88AB\u8D4B\u4E88\u4E86\u4FDD\u62A4\u7684\u9B54\u6CD5\uFF0C\u80FD\u591F\u5728\u4F7F\u7528\u8005\u5373\u5C06\u6B7B\u4EA1\u65F6\u6682\u505C\u65F6\u7A7A\u4EE5\u4FDD\u62A4\u4F7F\u7528\u8005\u3002"
+  itemIcon: {fileID: -460786257, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  itemType: 1
+  rare: 3
+  equipmentType: 1
+  attributes:
+  - stat: 6
+    Modifier: 15
+  - stat: 14
+    Modifier: 15
+  - stat: 5
+    Modifier: 15
+  - stat: 8
+    Modifier: -10
+  effects:
+  - {fileID: 11400000, guid: 8e442bfd7b0b217448402e67e04f8c37, type: 2}
+  useCoolDown: 5
+  dontShowTips: 0
+  materials:
+  - itemData: {fileID: 11400000, guid: d15f8bcd125372e428a238214e54cded, type: 2}
+    num: 5
+  - itemData: {fileID: 11400000, guid: 9e1e893a5278594458871c9dba479e6c, type: 2}
+    num: 3
+  - itemData: {fileID: 11400000, guid: 2d4beb5bf3a422f45962e6ec9dd2eeb7, type: 2}
+    num: 1

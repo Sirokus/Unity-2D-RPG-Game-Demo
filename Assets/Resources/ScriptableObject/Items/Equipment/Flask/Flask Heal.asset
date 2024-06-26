@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96afb33a4aeb434db6bc54b57359e09, type: 3}
+  m_Name: Flask Heal
+  m_EditorClassIdentifier: 
+  itemID: 25
+  itemName: "\u751F\u547D\u836F\u6C34"
+  itemInfo: "\u562C\u4E00\u53E3\uFF0C\u5305\u6CBB\u767E\u75C5\uFF01"
+  itemIcon: {fileID: 1206954855, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  itemType: 1
+  rare: 1
+  itemPrice: 500
+  equipmentType: 3
+  attributes: []
+  effects:
+  - {fileID: 11400000, guid: c5836ea56a3445942bcb743e98fd66bd, type: 2}
+  - {fileID: 11400000, guid: 65653bfe189298845adfaedf4da5c6f6, type: 2}
+  useCoolDown: 3
+  dontShowTips: 0
+  materials:
+  - itemData: {fileID: 11400000, guid: 64ff4683a89a96346a5c451435db6f20, type: 2}
+    num: 2
+  - itemData: {fileID: 11400000, guid: 4732374d5f88de7458fbf872a58a0503, type: 2}
+    num: 1

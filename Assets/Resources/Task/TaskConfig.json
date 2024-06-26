@@ -1,0 +1,148 @@
+{
+  "list": [
+    {
+      "chain_id": 1,
+      "sub_id": 1,
+      "name": "探明情况",
+      "desc": "这位路人甲希望你去前方探明怪物的情况",
+      "type": "Task_MoveToLoc",
+      "condition": {
+        "wayPoint1": 1
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "2": 2,
+          "5": 5
+        }
+      },
+      "open_chain": ""
+    },
+    {
+      "chain_id": 1,
+      "sub_id": 2,
+      "name": "购买物品",
+      "desc": "这也太能射了吧，赶紧买个闪避衣压压惊",
+      "type": "Task_GetItem",
+      "condition": {
+        "21": 1
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "3": 2,
+          "4": 2
+        }
+      },
+      "open_chain": ""
+    },
+    {
+      "chain_id": 1,
+      "sub_id": 3,
+      "name": "击杀怪物",
+      "desc": "哇，好多怪物，击杀他们！",
+      "type": "Task_Kill",
+      "condition": {
+        "Skeleton": 1,
+        "Archer": 1
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "6": 2,
+          "7": 2
+        }
+      },
+      "open_chain": "2|1"
+    },
+    {
+      "chain_id": 1,
+      "sub_id": 4,
+      "name": "继续深入",
+      "desc": "一路杀杀杀过去！",
+      "type": "Task_Kill",
+      "condition": {
+        "Skeleton": 1,
+        "Archer": 2,
+        "Slime": 3
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "8": 2,
+          "9": 2
+        }
+      },
+      "open_chain": ""
+    },
+    {
+      "chain_id": 1,
+      "sub_id": 5,
+      "name": "打败Boss",
+      "desc": "好大一Boss，打败它！",
+      "type": "Task_Kill",
+      "condition": {
+        "Boss": 2
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "10": 2,
+          "11": 2
+        }
+      },
+      "open_chain": "3|1"
+    },
+    {
+      "chain_id": 2,
+      "sub_id": 1,
+      "name": "休息一会儿",
+      "desc": "打完肯定很累吧！休息一会儿",
+      "type": "Task_Wait",
+      "condition": {
+        "3": 1
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "2": 2
+        }
+      },
+      "open_chain": ""
+    },
+    {
+      "chain_id": 2,
+      "sub_id": 2,
+      "name": "不行还是很累",
+      "desc": "再休息一会儿吧！",
+      "type": "Task_Wait",
+      "condition": {
+        "3": 1
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "2": 2
+        }
+      },
+      "open_chain": ""
+    },
+    {
+      "chain_id": 3,
+      "sub_id": 1,
+      "name": "回去向路人报告",
+      "desc": "这个路人好像有什么想说的，回去听听？",
+      "type": "Task_Interact",
+      "condition": {
+        "陆仁贾": 1
+      },
+      "award": {
+        "currency": 500,
+        "items": {
+          "2": 2
+        }
+      },
+      "open_chain": ""
+    }
+  ]
+}

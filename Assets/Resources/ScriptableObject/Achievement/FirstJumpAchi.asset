@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89af19850bb152542a656bfa2ee69a93, type: 3}
+  m_Name: FirstJumpAchi
+  m_EditorClassIdentifier: 
+  AchiId: FirstJumpAchi
+  AchiIcon: {fileID: 2134143234, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  AchiName: "\u54C7\uFF0C\u4F60\u8DF3\u7684\u771F\u9AD8\uFF01"
+  AchiDesc: "\u6309\u4E0B\u7A7A\u683C\u952E\uFF0C\u611F\u53D7\u7269\u7406\u5F15\u64CE\u5E26\u7ED9\u60A8\u7684\u6781\u81F4\u4F53\u9A8C\uFF01\u98DE\uFF01"

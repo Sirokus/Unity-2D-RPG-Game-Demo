@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7687133520681785092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7687133520681785147}
+  - component: {fileID: 7687133520681785146}
+  - component: {fileID: 7687133520681785093}
+  - component: {fileID: 7687133520681785150}
+  - component: {fileID: 7687133520681785145}
+  - component: {fileID: 7687133520681785144}
+  - component: {fileID: 728981974}
+  - component: {fileID: 7573331792513242430}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7687133520681785147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7687133520681785146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4470fa38a42d7341803a53eb4b79410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Achievements:
+  - {fileID: 7687133520681785093}
+  - {fileID: 7687133520681785150}
+  - {fileID: 7687133520681785145}
+  - {fileID: 7687133520681785144}
+  - {fileID: 728981974}
+  - {fileID: 7573331792513242430}
+--- !u!114 &7687133520681785093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd61a170f17ba14fa82ef28741599a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementID: c216f098-86ed-4573-bdd7-befe5864b871
+  isActived: 0
+--- !u!114 &7687133520681785150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35634a890a2c9c04daf35b6bf7d7ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementID: 76ad328a-574c-4f6c-8d94-ee8bde85a660
+  isActived: 0
+--- !u!114 &7687133520681785145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c0f1877de15e1f4fa35ae4b7a75cfb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementID: a3c61e22-1567-4e80-8dfe-2e4169bf9ca3
+  isActived: 0
+--- !u!114 &7687133520681785144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3c2a666dfd49644b4ba1e7d91f57fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementID: 36e43d61-d728-4447-9a55-bafe76222cf6
+  isActived: 0
+--- !u!114 &728981974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21cd3c918fb0c504cb97e11a4651d7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementID: 0fd1c086-1e0f-4817-9bbe-9876a5a6aede
+  isActived: 0
+--- !u!114 &7573331792513242430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687133520681785092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a23c5ee4678ee849b8168e1463df629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementID: 5869a62b-9a2f-4870-af30-e541274f81a4
+  isActived: 0

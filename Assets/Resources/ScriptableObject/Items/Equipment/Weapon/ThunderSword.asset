@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96afb33a4aeb434db6bc54b57359e09, type: 3}
+  m_Name: ThunderSword
+  m_EditorClassIdentifier: 
+  itemID: 16
+  itemName: "\u9EBB\u9EBB\u9EBB\u5251"
+  itemInfo: "\u5251\u4E0A\u9644\u6709\u5341\u5206\u5F3A\u529B\u7684\u96F7\u7535\u9B54\u6CD5\uFF0C\u636E\u8BF4\u7B2C\u4E00\u4E2A\u7ED9\u5B83\u8D77\u540D\u5B57\u7684\u4EBA\u56E0\u4E3A\u63E1\u4F4F\u65F6\u4EA7\u751F\u7684\u7535\u6D41\u53EA\u80FD\u8BF4\u51FA\u9EBB\u9EBB\u9EBB\u800C\u6700\u7EC8\u88AB\u4F20\u79F0\u4E3A\u9EBB\u9EBB\u9EBB\u5251\u3002"
+  itemIcon: {fileID: 397739693, guid: be55291aae08d434db3da3b59db3ab4a, type: 3}
+  itemType: 1
+  rare: 3
+  equipmentType: 0
+  attributes:
+  - stat: 8
+    Modifier: 10
+  - stat: 13
+    Modifier: 40
+  effects:
+  - {fileID: 11400000, guid: 9f234bf427620994fae32374f407afa7, type: 2}
+  useCoolDown: 0
+  dontShowTips: 0
+  materials:
+  - itemData: {fileID: 11400000, guid: 64ff4683a89a96346a5c451435db6f20, type: 2}
+    num: 5
+  - itemData: {fileID: 11400000, guid: c54584a8f3046c94a99a0f3b0c06041a, type: 2}
+    num: 1
+  - itemData: {fileID: 11400000, guid: d15f8bcd125372e428a238214e54cded, type: 2}
+    num: 10
+  - itemData: {fileID: 11400000, guid: 9e1e893a5278594458871c9dba479e6c, type: 2}
+    num: 3
+  - itemData: {fileID: 11400000, guid: c34255d9d26c22d47842fa4dfaf43c89, type: 2}
+    num: 2

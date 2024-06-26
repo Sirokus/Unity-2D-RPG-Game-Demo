@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1202e7fb6c824e499964fe0fbafcd1d, type: 3}
+  m_Name: DamageBuff
+  m_EditorClassIdentifier: 
+  dontShowTips: 0
+  buffIcon: {fileID: 185240797, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  buffName: "\u72C2\u66B4\u4F24\u5BB3"
+  stat: 8
+  buffAmount: 999
+  buffDuration: 5
